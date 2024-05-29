@@ -1,0 +1,20 @@
+
+.leaflet-marker-shadow {
+    /* Use static template tag to generate correct URL */
+    background-image: url('{% static "/images/marker-icon.png" %}');
+    background-size: contain;
+}
+
+/* Retina images */
+.leaflet-retina .leaflet-marker-icon {
+    /* Use static template tag to generate correct URL */
+    background-image: url('{% static "css/images/marker-icon-2x.png" %}');
+    background-size: contain;
+}
+
+/* Shadow image */
+.leaflet-marker-shadow {
+    /* Use static template tag to generate correct URL */
+    background-image: url('{% static "css/images/marker-shadow.png" %}');
+    background-size: contain;
+}
